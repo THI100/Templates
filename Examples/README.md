@@ -1,0 +1,1 @@
+Those are only examples of some components in usage which are present in this templates repository.

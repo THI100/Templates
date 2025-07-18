@@ -1,3 +1,5 @@
+// I hardly recommend to style this component directly in the page style file.
+
 function ParagraphText(text) {
     return (
         <section className="paragraph-text">

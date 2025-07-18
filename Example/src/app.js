@@ -1,14 +1,12 @@
-import "./styles.css";
-import Footer from "../Footer";
-import Header from "../Header";
-import ParagraphText from "../../ParagraphText";
+import Header from '../../Components/Header';
+import Footer from '../../Components/Footer';
 
-export default function App() {
+function App() {
   return (
-    <div>
-        <Header />
-        <ParagraphText text="This is a sample paragraph text component that can be used to display static or dynamic content." />
-        <Footer />
+    <div className="App">
+      
     </div>
   );
 }
+
+export default App;

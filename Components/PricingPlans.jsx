@@ -19,26 +19,26 @@ export default function PricingPlans() {
   const dftPage = () => {
     return (
       <section>
-        <h1>Plans and their prices</h1>
+        <h2>Plans and their prices</h2>
         <div>
-          <h2>Free</h2>
+          <h3>Free</h3>
           <hr />
           <li>Basic features</li>
-          <h3>$0/month</h3>
+          <h4>$0/month</h4>
           <button onClick={() => setPlans(1)}>Click here to see more</button>
         </div>
         <div>
-          <h2>Plus</h2>
+          <h3>Plus</h3>
           <hr />
           <li>Extra features</li>
-          <h3>$9.99/month</h3>
+          <h4>$9.99/month</h4>
           <button onClick={() => setPlans(2)}>Click here to see more</button>
         </div>
         <div>
-          <h2>Premium</h2>
+          <h3>Premium</h3>
           <hr />
           <li>All features</li>
-          <h3>$19.99/month</h3>
+          <h4>$19.99/month</h4>
           <button onClick={() => setPlans(3)}>Click here to see more</button>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function PricingPlans() {
 
   const freePlan = () => (
     <section>
-      <h1>Free Plan</h1>
+      <h2>Free Plan</h2>
       <p>Details about the Free plan...</p>
       <button onClick={() => setPlans(0)}>Back to Plans</button>
     </section>
@@ -55,7 +55,7 @@ export default function PricingPlans() {
 
   const plusPlan = () => (
     <section>
-      <h1>Plus Plan</h1>
+      <h2>Plus Plan</h2>
       <p>Details about the Plus plan...</p>
       <button onClick={() => setPlans(0)}>Back to Plans</button>
     </section>
@@ -63,7 +63,7 @@ export default function PricingPlans() {
 
   const premiumPlan = () => (
     <section>
-      <h1>Premium Plan</h1>
+      <h2>Premium Plan</h2>
       <p>Details about the Premium plan...</p>
       <button onClick={() => setPlans(0)}>Back to Plans</button>
     </section>

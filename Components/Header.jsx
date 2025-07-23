@@ -1,5 +1,3 @@
-// THIS IS A LONELY COMPONENT
-// You just need to import it in your main file and use it.
 
 import { Link } from 'react-router-dom';
 import 'styles/Header.css'; // Optional \\

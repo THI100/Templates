@@ -1,4 +1,4 @@
-
+// Needs a server in case of application
 import React from "react";
 
 // Factory function to generate up to 20 image objects

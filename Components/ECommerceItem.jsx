@@ -1,3 +1,5 @@
+// Needs revision
+
 import ECItem from "./Types/ECI";
 import ObjectGallery from "./ObjectGallery";
 
@@ -14,7 +16,7 @@ const exampleItem = ECItem(
   " ",
 );
 
-function ECommerceItem() {
+export default function ECommerceItem() {
   return (
     <section>
       <h2>#{exampleItem.id}: {exampleItem.name}</h2>
@@ -26,8 +28,8 @@ function ECommerceItem() {
       <div>
         <h2>Price: </h2><h3>${exampleItem.price}</h3>
         <h3>Status: {exampleItem.isAvaliable ? "Available" : "Not Available"}</h3>
-        <h3>Created At: {exampleItem.createdAt}</h3>
-        <h3>Updated At: {exampleItem.updated ? exampleItem.updatedAt : "Never updated"}</h3>
+        <h3>Created At: {new Date(exampleItem.createdAt).toLocaleString()}</h3>
+        <h3>Updated At: {exampleItem.updated ? new Date(exampleItem.updatedAt).toLocaleString() : "Never updated"}</h3>
       </div>
 
       <div>

@@ -1,39 +1,39 @@
-Explanation of each Component present
+**_Explanation of each Component present:_**
 
-**0. App.js: Standard and essential element, Is where you will define mostly your Home page, make copoennt usage, imports of components and styling, you just import it to the Index.js on your own project/folder.**
+0. **App.js: Standard and essential element, Is where you will define mostly your Home page, make copoennt usage, imports of components and styling, you just import it to the Index.js on your own project/folder.**
 
-1. AuctionItem:
+1. **AuctionItem:**
 
-2. ChatCS: 
+2. **ChatCS:**
 
-3. ChatWidget:
+3. **ChatWidget:**
 
-4. ContactForm:
+4. **ContactForm:**
 
-5. ECommerceItem:
+5. **ECommerceItem:**
 
-6. Footer:
+6. **Footer:**
 
-7. Gallery:
+7. **Gallery:**
 
-8. Header:
+8. **Header:**
 
-9. Notification:
+9. **Notification:**
 
-10. ObjectGallery:
+10. **ObjectGallery:**
 
-11. PricingPlans:
+11. **PricingPlans:**
 
-12. RollingGallery:
+12. **RollingGallery:**
 
-13. RollingIcons:
+13. **RollingIcons:**
 
-14. SearchBar:
+14. **SearchBar:**
 
-15. Shippings:
+15. **Shippings:**
 
-16. SlideSideBar:
+16. **SlideSideBar:**
 
-17. TestimonialSetion:
+17. **TestimonialSetion:**
 
-Coming soon: BlogPostItems, PreviewItems and ...
+*Coming soon: BlogPostItems, PreviewItems and ...*

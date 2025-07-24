@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import { useState, useEffect } from 'react';
 import 'styles/RollingGallery.css'; // Optional
 
@@ -26,5 +26,4 @@ export default function RollingGallery() {
     </div>
   );
 }
-=======
->>>>>>> 0ef18934a74961921fec8283b6f774535fa5b0c3
+

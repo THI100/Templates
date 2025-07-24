@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import './Styles/RollingIcons.css';
 
 const icons = [
@@ -30,5 +30,4 @@ export default function RollingIcons() {
     </div>
   );
 }
-=======
->>>>>>> 0ef18934a74961921fec8283b6f774535fa5b0c3
+

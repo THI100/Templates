@@ -1,21 +1,21 @@
 {
-  "name": "my-website",
+  "name": "templates",
   "version": "1.0.0",
   "description": "",
-  "main": "Index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "author": "A",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.3",
-    "react-slick": "^0.28.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.7.0",
+    "react-slick": "^0.30.3",
+    "react-scripts": "5.0.1"
   }
 }

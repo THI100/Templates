@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function ChatClientSeller() {
+export default function ChatClientSeller(id) {
     const [user, setUser] = useState(null);
     const [chat, setChat] = useState(null);
     const [messageText, setMessageText] = useState("");

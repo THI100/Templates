@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom';
 import 'styles/Header.css'; // Optional \\
+import Notifications from './Notifications';
 
 export default function Header() {
   return (
@@ -14,6 +15,7 @@ export default function Header() {
         <li> <Link to="/Pricing">Pricing</Link> </li>
         </ul>
       </nav>
+      <Notifications />
     </header>
   );
 }

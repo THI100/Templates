@@ -1,4 +1,4 @@
-export default function user (id, name, photo, verified) {
+export default function userFunction (id, name, photo, verified) {
     return {
         id,
         name,
